@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 4.5.0
+- 5
 script: npm run coverage
 after_success: "< coverage/lcov.info ./node_modules/coveralls/bin/coveralls.js"
 deploy:
