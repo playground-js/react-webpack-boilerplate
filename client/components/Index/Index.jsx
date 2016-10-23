@@ -11,6 +11,7 @@ class IndexComponent extends Component {
     return (
       <section>
         <h2>react-webpack-boilerplate</h2>
+        <h3>This is the updated file</h3>
         <ul ref="indexList" className="index-list">
           {this.props.items.map((item, index) => {
             return (<li key={index}>item {item}</li>);
